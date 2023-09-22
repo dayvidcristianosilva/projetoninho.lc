@@ -1,0 +1,24 @@
+<DOCTYEPE html>
+	<html>
+		<head></head>
+	<body>
+	<script>
+		var altura = prompt("Diga a sua altura:");
+		altura = altura.replace(",",".");
+		altura = parseFloat(altura);
+		
+		var peso =  prompt("Diga o seu peso:");
+		peso = peso.replace(",",".");
+		peso = parseFloat(peso);
+		
+		var imc = peso/altura**2;
+		
+		if(imc >= 25){
+		document.write("Você está acima do peso!");
+		}else{
+		document.write("Você está abaixo do peso"
+		}
+	
+		</script>
+	</body>
+</html>

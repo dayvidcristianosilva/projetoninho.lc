@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html>
+<head></head>
+	<body>
+	<script>
+	function calculaDesconto(valor){
+		var percDesconto = 0;
+		
+		if(valor <= 500){
+		percDesconto = 0.10;
+		
+		} else {
+		percDesconto = 0.15;
+		}
+		return percDesconto
+	}
+	
+	var valorCompra = parseFloat(prompt("Digite o valor da compra:"));
+	var p = calculaDesconto(valorCompra);
+	
+	var desconto = 0;
+	var totalApagar = 0;
+	desconto = valor * p;
+	totalApagar = valorCompra - desconto;
+		
+	document.write("Você ganhou " + p*10 + "% do desconto. <br> Desconto: R$" + desconto "<br> Total a pagar: " + totalApagar);
+	
+	</script>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<DOCTYEPE html>
+	<html>
+		<head></head>
+	<body>
+	<script>
+	var saldo = prompt("Digite o saldo médio:");
+	saldo = saldo.replace(",",".");
+	saldo = parseFloat(saldo);
+	
+	if(saldo >= 0 && saldo <=200){
+	document.write("Nenhum crédito especial")
+	}else{
+	if(saldo >= 201 && saldo <= 400){
+	document.write("20% de crédito especial")
+		}else{
+	if(saldo >= 401 && saldo <= 600){
+	document.write("30% de crédito especial")
+			} else {
+			if(saldo > 600){
+			document.write("40% de crédito especial");
+				}
+			}
+		}
+	}
+		</script>
+	</body>
+</html>

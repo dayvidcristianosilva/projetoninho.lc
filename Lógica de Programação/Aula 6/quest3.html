@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	</head></head>
+	<body>
+		<script>
+	var RPG = [];
+	var resposta = prompt("Criar mais personagens? S - Sim / N - Não");
+	
+	while(resposta == "1"){
+		var nome = prompt("Nome:");
+		var forca = prompt("Força:");
+		var destreza = prompt("Destreza:");
+		var agilidade = prompt("Agilidade:");
+		var inteligencia = prompt("Inteligência:");
+		var percepcao = prompt("Percepção:");
+		
+		var atributos = [nome, forca, destreza, agilidade, inteligencia, percepcao];
+		RPG.push(atributos);
+		
+		resposta = prompt("Criar mais personagens? S - Sim / N - Não");
+}
+		for(var i = 0; i <= RPG.length - 1; i++){
+			document.write("Nome: " + RPG[i][0] + "<br>" + "Força: " + RPG[i][1] + "<br>" + "Destreza: " + RPG[i][2] + "<br>"+ "Agilidade: " + RPG[i][3] + "<br>" + "Inteligência: " + RPG[i][4] + "<br>" + "Percepção: " + RPG[i][5]);
+			document.write("<br>"+"<br>");
+		}
+	
+		</script>
+	</body>
+</html>

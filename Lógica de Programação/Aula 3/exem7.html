@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+<script>
+	var qtdMaiorIdade = 0;
+	var qtdMenorIdade = 0;
+	var idade = parseInt(prompt("Digite a idade:"));
+	
+	while(idade >= 0){
+	
+	if(idade >= 18){
+	 qtdMaiorIdade = qtdMaiorIdade + 1;
+	} else {
+	qtdMenorIdade = qtdMenorIdade + 1;
+	}
+idade = parseInt(prompt("Digite a idade:"));
+}
+document.write("Quantidade de pessoas maiores de idade: " + qtdMaiorIdade);
+document.write("<br>");
+document.write("Quantidade de pessoas menores de idade: " + qtdMenorIdade);
+
+</script>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	</head></head>
+	<body>
+		<script>
+	var pessoa = {
+		nome: "Matheus Gouveia",
+		dataNascimento: "2002-01-24",
+		serie: "Terceirão",
+		notas: [6.5, 9.1, 5.5],
+		endereco:{
+			logradouro: "Rua Treze, 10",
+			bairro: "UR11 - Ibura",
+			cidade: "Jaboatão dos Guararapes",
+			latitude: -8.1296515,
+			longitude: -34.9681624
+		},
+		nomeMae: "Maria",
+		curso: "Colegial",
+		idade: 21,
+		peso: 70.0,
+		altura:1.80,
+		calculaIMC:function() {
+			var imc = this.peso/(this.altura**2);
+			document.write("IMC: " + imc);
+			document.write("<br><br>");
+		}
+	}
+	pessoa.calculaIMC();
+	console.log(pessoa);
+	
+	pessoa.nome = "Lucas André"
+	
+	/*document.write(pessoa.nome);
+	document.write("<br>");
+	
+	document.write(pessoa["endereco"]);
+	document.write("<br>");*/
+	
+	//document.write("2ª nota: " + pessoa.notas[1]);
+	
+	document.write("Logradouro: " + pessoa.endereco.logradouro);
+	document.write("<br>");
+	document.write("Latitude: " + pessoa.endereco.latitude);
+	document.write("<br><br>");
+	
+	
+	for(var i = 0; i <= pessoa.notas.length-1; i++){
+		document.write((i + 1) + "ª nota: " + pessoa.notas[i]);
+		document.write("<br>");
+	}
+		</script>
+	</body>
+</html>
