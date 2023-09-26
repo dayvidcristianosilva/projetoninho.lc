@@ -1,0 +1,157 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Ficção"
+    },
+    {
+      "id": 2,
+      "nome": "Não Ficção"
+    },
+    {
+      "id": 3,
+      "nome": "História"
+    },
+    {
+      "id": 4,
+      "nome": "Terror"
+    },
+    {
+      "id": 5,
+      "nome": "Mistério"
+    },
+    {
+      "id": 6,
+      "nome": "Ação"
+    },
+    {
+      "id": 7,
+      "nome": "Comédia"
+    },
+    {
+      "id": 8,
+      "nome": "Romance"
+    },
+    {
+      "id": 9,
+      "nome": "Fantasia"
+    },
+    {
+      "id": 10,
+      "nome": "Comédia Romântica"
+    },
+    {
+      "id": 11,
+      "nome": "Terror Psicológico"
+    },
+    {
+      "id": 12,
+      "nome": "Animação"
+    },
+    {
+      "id": 13,
+      "nome": "Brasileiro"
+    }
+  ],
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Dom Quixote",
+      "autor": "Miguel de Cervantes",
+      "anoPublicacao": 1605,
+      "isbn": "978-85-359-0277-3",
+      "disponivel": true,
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Origens",
+      "autor": "Neil deGrasse Tyson",
+      "anoPublicacao": 2017,
+      "isbn": "978-85-359-0650-4",
+      "disponivel": true,
+      "categoriaId": 2
+    },
+    {
+      "id": 3,
+      "titulo": "Uma Breve História do Tempo",
+      "autor": "Stephen Hawking",
+      "anoPublicacao": 1988,
+      "isbn": "978-85-359-0278-0",
+      "disponivel": false,
+      "categoriaId": 2
+    },
+    {
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "autor": "J. K. Rowling",
+      "anoPublicacao": 1900,
+      "isbn": "978-85-359-0277-9",
+      "disponivel": true,
+      "categoriaId": 9,
+      "id": 4
+    },
+    {
+      "titulo": "Harry Potter e a Camara Secreta",
+      "autor": "J. K. Rowling",
+      "anoPublicacao": 2000,
+      "isbn": "978-85-359-0277-10",
+      "disponivel": true,
+      "categoriaId": 9,
+      "id": 5
+    },
+    {
+      "titulo": "Harry Potter e a Ordem da Fénix",
+      "autor": "J. K. Rowling",
+      "anoPublicacao": 1500,
+      "isbn": "978-85-359-0277-18",
+      "disponivel": true,
+      "categoriaId": 9,
+      "id": 6
+    },
+    {
+      "titulo": "Harry Potter e a as Reliquias da Morte",
+      "autor": "J. K. Rowling",
+      "anoPublicacao": 1960,
+      "isbn": "978-85-359-0277-20",
+      "disponivel": true,
+      "categoriaId": 9,
+      "id": 7
+    },
+    {
+      "titulo": "Por lugares incríveis",
+      "autor": "Jennifer Niven, Liz Hannah, Elizabeth Hanna",
+      "anoPublicacao": 1960,
+      "isbn": "978-85-359-0277-20",
+      "disponivel": true,
+      "categoriaId": 8,
+      "id": 8
+    },
+    {
+      "titulo": "Tudo que eu sei sobre o amor",
+      "autor": "Dolly Alderton",
+      "anoPublicacao": 1960,
+      "isbn": "978-85-359-0277-52",
+      "disponivel": true,
+      "categoriaId": 8,
+      "id": 9
+    },
+    {
+      "titulo": "O azul daqui é mais azul",
+      "autor": "Karen M. McManus",
+      "anoPublicacao": 2020,
+      "isbn": "978-85-359-0277-52",
+      "disponivel": true,
+      "categoriaId": 5,
+      "id": 10
+    },
+    {
+      "titulo": "As vantagens de ser invisível",
+      "autor": "Stephen Chbosky",
+      "anoPublicacao": 1960,
+      "isbn": "",
+      "disponivel": true,
+      "categoriaId": 7,
+      "id": 11
+    }
+  ]
+}
