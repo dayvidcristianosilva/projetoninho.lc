@@ -3,7 +3,10 @@ const app = express();
 const bodyParser = require("body-parser");
 const connection = require("./database/database");
 
-const Produto = require('./database/produto')
+const Produto = require('./produtos/Produto');
+const produtoController = require('./produtos/ProdutoController');
+
+app.user('/', produtoController )
 
 connection
     .authenticate()
@@ -25,21 +28,6 @@ app.use(express.static('public'));
 
 app.get("/", (req, res) => {
     res.render("index");
-});
-
-app.get("/produto", (req, res) => {
-    res.render("produto");
-});
-
-app.post("/salvarProduto", (req, res) => {
-    var titulo = req.body.titulo;
-    var descricao = req.body.descricao;
-    Produto.create({
-        titulo: titulo,
-        descricao: descricao
-    }).then(() => {
-        res.redirect('/')
-    });
 });
 
 app.listen(8080, () => {
