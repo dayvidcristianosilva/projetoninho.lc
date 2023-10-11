@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <form action="/salvarProduto" method="post">
                         <label for="titulo">Nome:</label>
-                        <input type="text" name="titulo" id="nomeProduto" placeholder="Digite um nome..." class="form-control" >
+                        <input type="text" name="titulo" id="nomeProduto" placeholder="Digite um nome..." class="form-control" value="<%= produto">
 
                         <label for="descricao">Descrição:</label>
                         <textarea name="descricao" id="descricaoproduto" cols="30" rows="10" placeholder="Descreva o produto" class="form-control"></textarea>
